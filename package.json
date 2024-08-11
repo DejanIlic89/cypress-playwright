@@ -1,0 +1,22 @@
+{
+  "name": "cypress-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress-test-headless": "npx cypress run",
+    "playwright-test-headless": "npx playwright test",
+    "cypress-test-ui": "npx cypress open",
+    "playwright-test-ui": "npx playwright test --ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.13.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.2.0"
+  }
+}
